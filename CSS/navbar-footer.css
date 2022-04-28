@@ -202,7 +202,7 @@
         height: auto;
     }
     
-    input.form-control {
+    .inputiD {
         background-color: transparent;
         border: none;
         border-bottom: 1px solid black !important;
@@ -224,5 +224,38 @@
     /* __________________________FOOTER ________________________*/
     
     #generalFooter {
-        background-image: url(/images/);
+        background-image: linear-gradient(360deg, rgba(34, 65, 98, 1), rgba(255, 255, 255, 0.6)), url('/images/siegeLMD.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top left;
+    }
+    
+    .footerLine {
+        color: white;
+        padding: 1px 0;
+    }
+    
+    .groupePeda {
+        margin: 5px 0;
+        display: flex;
+    }
+    
+    .groupePeda a {
+        font-size: 14px;
+        color: white;
+        font-family: var(--primary-font);
+    }
+    
+    .groupePeda .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .groupePeda .logo img {
+        width: 50px;
+        display: inline-block;
+    }
+    
+    .groupePeda .nom {
+        align-self: center;
     }
